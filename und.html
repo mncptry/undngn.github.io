@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div.container {
+            min-width: 300px;
+            max-width: 500px;
+            margin: 0px auto;
+        }
+
+        section.page {
+            width: 100%;
+            min-height: 100vh;
+            background-image: url(bt2.jpg);
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        p, h1 {
+            text-align: center;
+        }
+
+        section.page.one {
+            gap: 300pt;
+        }
+
+        section.page.one > div > h1{
+            font-size: 30pt;
+        }
+
+        section.page.two {
+            justify-content: space-evenly;
+            padding: 20px;
+        }
+
+        div.card {
+            padding: 10pt;
+            width: 250pt;
+            min-height: 300pt;
+            background-image: url(bt1.jpg);
+            border-radius: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+       }
+
+       div.circle {
+        width: 150pt;
+        height: 150pt;
+        border-radius: 75pt;
+        background-color: whitesmoke;
+        margin-bottom: 50px;
+       }
+
+       div.circle img {
+        width: 150pt;
+        height: 150pt;
+        border-radius: 75pt;
+        background-color: whitesmoke;
+        margin-bottom: 50px;
+       }
+
+       div.line {
+        width: 150px;
+        height: 1px;
+        background-color: black;
+        margin: 10px auto;
+       }
+
+       section.page.three {
+            justify-content: space-evenly;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="page one">
+            <div class="title">
+                <p>The Wedding of</p>
+                <h1>Rashena & Alvito</h1>
+                <p>Minggu, 27 November 2023</p>
+            </div>
+    
+            <div class="guest-name">
+                <p>Kepada Yth.</p>
+                <p>dr. Abhista Candera S.Ked</p>
+                <p>&</p>
+                <p>Monalisa S.M.B, S.I.K, S.E</p>
+            </div>
+        </section>
+        <section class="page two">
+            <h2>Our Beloved</h2>
+            <h1>Rashena </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nostrum quo ex pariatur! Reprehenderit dicta nisi sunt atque quo dolorum accusantium voluptas, ipsum explicabo illum perspiciatis maiores in accusamus voluptatibus?</p>
+            <div class="card">
+                <div class="circle"><img src="lisa.jpg"></div>
+                <h1>Dr. dr. Dharmana Rashena Dermawan S.Ked, S.H, S.pd, S.Psi, S.M.B, S.E, S.I.K, S.Si, M.H, M.Pd, M.Psi, M.M</h1>
+                <div class="line"></div>
+                <p>Putri Ketiga</p>
+                <p>Bpk Dr. Samuel Dermawan S.H, M.H</p>
+                <p>&</p>
+                <p>Ibu dr. Carissa S.Ked, S.H</p>
+            </div>
+        </section>
+        <section class="page three">
+            <h2>Our Beloved</h2>
+            <h1>Alvito</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nostrum quo ex pariatur! Reprehenderit dicta nisi sunt atque quo dolorum accusantium voluptas, ipsum explicabo illum perspiciatis maiores in accusamus voluptatibus?</p>
+            <div class="card">
+                <div class="circle"><img src="jae.jpg"></div>
+                <h1>Dr. dr. Alvito Mahachandera S.Ked, S.H, S.M.B, S.E, S.I.K, S.Si, M.H, M.M</h1>
+                <div class="line"></div>
+                <p>Putra Pertama</p>
+                <p>Bpk Dr. Alraiy Mahachandera S.H, M.H</p>
+                <p>&</p>
+                <p>Ibu Nagitta Angeliy Inggit S.H, S.Pd</p>
+            </div>
+        </section>
+        </section>
+        <section class="page four">
+            <h1>Thank You</h1>
+            <p>Minggu, 10 November 2023</p>
+        </section>
+    </div>
+</body>
+</html>
